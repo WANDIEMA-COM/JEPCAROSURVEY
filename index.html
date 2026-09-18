@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jepkirui Carol Survey Company Limited | Licensed Land Surveyors Kenya</title>
+    <meta name="description" content="Professional & Licensed Land Surveyors in Kenya. Cadastral Survey, Land Subdivision, Beacon Re-establishment, Topographic Survey, Sectional Titles & ArdhiSasa Compliance. Call 0716505439.">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            600: '#059669',
+                            700: '#047857',
+                            800: '#065f46',
+                            900: '#064e3b',
+                        },
+                        navy: {
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        },
+                        gold: {
+                            500: '#d97706',
+                            600: '#b45309',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #064e3b 0%, #0f172a 100%);
+        }
+        .hero-pattern {
+            background-color: #064e3b;
+            background-image: radial-gradient(#059669 0.75px, transparent 0.75px), radial-gradient(#059669 0.75px, #064e3b 0.75px);
+            background-size: 30px 30px;
+            background-position: 0 0,15px 15px;
+            opacity: 0.95;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 bg-gray-50 antialiased selection:bg-brand-600 selection:text-white">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brand-900 text-white text-xs md:text-sm py-2 px-4 border-b border-brand-800">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4 text-emerald-200">
+                <span><i class="fa-solid fa-certificate text-amber-400 mr-1.5"></i> Fully Licensed Land Surveying Firm in Kenya</span>
+                <span class="hidden md:inline">|</span>
+                <span class="hidden md:inline"><i class="fa-solid fa-check-double text-amber-400 mr-1.5"></i> ArdhiSasa Platform Compliant</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="tel:0716505439" class="font-semibold hover:text-amber-400 transition-colors flex items-center gap-1">
+                    <i class="fa-solid fa-phone text-amber-400"></i> 0716505439
+                </a>
+                <a href="https://wa.me/254716505439?text=Hello%20Jepkirui%20Carol%20Survey%20Company,%20I%20need%20assistance%20with%20a%20land%20survey." target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white px-2.5 py-0.5 rounded text-xs transition-all font-medium flex items-center gap-1">
+                    <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-12 h-12 bg-gradient-to-br from-brand-700 to-brand-900 rounded-xl flex items-center justify-center text-white text-xl shadow-md group-hover:scale-105 transition-transform">
+                        <i class="fa-solid fa-drafting-compass"></i>
+                    </div>
+                    <div>
+                        <span class="block font-black text-lg md:text-xl text-gray-900 leading-tight uppercase tracking-tight">JEPKIRUI CAROL</span>
+                        <span class="block text-xs font-semibold text-brand-700 tracking-wider">SURVEY COMPANY LIMITED</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav Links -->
+                <nav class="hidden lg:flex items-center gap-8 font-medium text-gray-700 text-sm">
+                    <a href="#services" class="hover:text-brand-700 transition-colors">Services</a>
+                    <a href="#calculator" class="hover:text-brand-700 transition-colors flex items-center gap-1">
+                        <span class="bg-amber-100 text-amber-800 text-xs px-2 py-0.5 rounded-full font-bold">Tool</span> Cost Estimator
+                    </a>
+                    <a href="#process" class="hover:text-brand-700 transition-colors">Survey Process</a>
+                    <a href="#ardhisasa" class="hover:text-brand-700 transition-colors">ArdhiSasa</a>
+                    <a href="#about" class="hover:text-brand-700 transition-colors">About Us</a>
+                    <a href="#faqs" class="hover:text-brand-700 transition-colors">FAQs</a>
+                </nav>
+
+                <!-- Desktop Action Button -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <a href="#contact" class="bg-brand-700 hover:bg-brand-800 text-white font-semibold px-5 py-2.5 rounded-lg text-sm shadow-md transition-all hover:shadow-lg flex items-center gap-2">
+                        <i class="fa-solid fa-file-signature"></i> Request Free Consultation
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Toggle Button -->
+                <button id="mobileMenuBtn" class="lg:hidden p-2 text-gray-700 hover:text-brand-700 focus:outline-none" aria-label="Toggle Navigation">
+                    <i class="fa-solid fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-white border-b border-gray-200 px-4 pt-2 pb-6 space-y-3">
+            <a href="#services" class="block py-2 text-gray-700 hover:text-brand-700 font-medium">Services</a>
+            <a href="#calculator" class="block py-2 text-gray-700 hover:text-brand-700 font-medium">Survey Cost Estimator</a>
+            <a href="#process" class="block py-2 text-gray-700 hover:text-brand-700 font-medium">Survey Process</a>
+            <a href="#ardhisasa" class="block py-2 text-gray-700 hover:text-brand-700 font-medium">ArdhiSasa Support</a>
+            <a href="#about" class="block py-2 text-gray-700 hover:text-brand-700 font-medium">About Us</a>
+            <a href="#faqs" class="block py-2 text-gray-700 hover:text-brand-700 font-medium">FAQs</a>
+            <div class="pt-2 border-t border-gray-100 flex flex-col gap-2">
+                <a href="tel:0716505439" class="w-full text-center bg-gray-100 text-gray-800 font-semibold py-2.5 rounded-lg text-sm">
+                    <i class="fa-solid fa-phone mr-2 text-brand-700"></i> Call 0716505439
+                </a>
+                <a href="#contact" class="w-full text-center bg-brand-700 text-white font-semibold py-2.5 rounded-lg text-sm">
+                    Get Free Survey Quote
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-pattern text-white py-12 md:py-20 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Hero Left Copy -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 bg-emerald-950/80 border border-emerald-500/30 text-emerald-300 text-xs md:text-sm font-semibold px-3 py-1.5 rounded-full">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                        Serving All 47 Counties in Kenya
+                    </div>
+                    
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight text-white">
+                        Precision Land & Engineering <span class="text-amber-400">Surveying Solutions</span> in Kenya
+                    </h1>
+                    
+                    <p class="text-emerald-100 text-base md:text-lg max-w-2xl leading-relaxed">
+                        Protect your property investments with high-accuracy GNSS/RTK land surveys. From boundary verification, land subdivision, and beacon re-establishment to ArdhiSasa deed plan approvals and sectional titles.
+                    </p>
+
+                    <!-- Key Selling Points Pill Grid -->
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
+                        <div class="bg-white/10 backdrop-blur-sm p-3 rounded-lg border border-white/10 text-xs md:text-sm flex items-center gap-2">
+                            <i class="fa-solid fa-map-location-dot text-amber-400 text-lg"></i>
+                            <span>Boundary Verification</span>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-sm p-3 rounded-lg border border-white/10 text-xs md:text-sm flex items-center gap-2">
+                            <i class="fa-solid fa-diagram-successor text-amber-400 text-lg"></i>
+                            <span>Land Subdivision</span>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-sm p-3 rounded-lg border border-white/10 text-xs md:text-sm flex items-center gap-2">
+                            <i class="fa-solid fa-stamp text-amber-400 text-lg"></i>
+                            <span>Title Deed Processing</span>
+                        </div>
+                    </div>
+
+                    <!-- Call To Action Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <a href="tel:0716505439" class="bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold px-7 py-4 rounded-xl shadow-lg transition-all text-center flex items-center justify-center gap-2 text-base">
+                            <i class="fa-solid fa-phone text-lg"></i> Call Now: 0716505439
+                        </a>
+                        <a href="#calculator" class="bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-4 rounded-xl border border-white/30 backdrop-blur-sm transition-all text-center flex items-center justify-center gap-2 text-base">
+                            <i class="fa-solid fa-calculator text-amber-400"></i> Estimate Survey Cost
+                        </a>
+                    </div>
+
+                    <!-- Trust Stats -->
+                    <div class="pt-6 border-t border-emerald-800/80 grid grid-cols-3 gap-4 text-center sm:text-left">
+                        <div>
+                            <p class="text-2xl md:text-3xl font-extrabold text-amber-400">100%</p>
+                            <p class="text-xs text-emerald-200">Legal Compliance</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl md:text-3xl font-extrabold text-white">500+</p>
+                            <p class="text-xs text-emerald-200">Parcels Surveyed</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl md:text-3xl font-extrabold text-amber-400">RTK/GNSS</p>
+                            <p class="text-xs text-emerald-200">Millimeter Precision</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Right Card Form (Lead Capture Box) -->
+                <div class="lg:col-span-5">
+                    <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-2xl text-gray-800 border border-gray-100">
+                        <div class="mb-6">
+                            <span class="bg-emerald-100 text-brand-800 font-bold text-xs px-3 py-1 rounded-full uppercase tracking-wider">Fast Lead Response</span>
+                            <h2 class="text-2xl font-bold text-gray-900 mt-2">Request Survey Services</h2>
+                            <p class="text-xs text-gray-500 mt-1">Fill this quick form and Surveyor Carol will call you back within 15 minutes.</p>
+                        </div>
+
+                        <form id="heroLeadForm" onsubmit="handleHeroSubmit(event)" class="space-y-4">
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-700 mb-1">Your Full Name *</label>
+                                <input type="text" id="leadName" required placeholder="e.g. John Kamau" class="w-full px-3.5 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-600 focus:border-brand-600 text-sm outline-none">
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block text-xs font-semibold text-gray-700 mb-1">Phone Number *</label>
+                                    <input type="tel" id="leadPhone" required placeholder="0712 345 678" class="w-full px-3.5 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-600 focus:border-brand-600 text-sm outline-none">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-gray-700 mb-1">Parcel County / Town *</label>
+                                    <input type="text" id="leadCounty" required placeholder="e.g. Nairobi / Kiambu" class="w-full px-3.5 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-600 focus:border-brand-600 text-sm outline-none">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-700 mb-1">Type of Survey Needed *</label>
+                                <select id="leadService" required class="w-full px-3.5 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-600 focus:border-brand-600 text-sm outline-none bg-white">
+                                    <option value="" disabled selected>Select survey service</option>
+                                    <option value="Boundary Verification / Beacons">Boundary Identification & Beacon Placing</option>
+                                    <option value="Land Subdivision">Land Subdivision & Mutation Plans</option>
+                                    <option value="Topographic Survey">Topographic & Contour Survey</option>
+                                    <option value="Sectional Properties Title">Sectional Title (Apartments/Units)</option>
+                                    <option value="Title Deed Processing">Title Deed Due Diligence / Search</option>
+                                    <option value="Engineering / Construction Survey">Engineering & Construction Survey</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-700 mb-1">Land Size / Parcel Details (Optional)</label>
+                                <input type="text" id="leadLandDetails" placeholder="e.g. 50x100 plot, 5 acres, LR No." class="w-full px-3.5 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-600 focus:border-brand-600 text-sm outline-none">
+                            </div>
+
+                            <button type="submit" class="w-full bg-brand-700 hover:bg-brand-800 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all flex items-center justify-center gap-2 text-base">
+                                <i class="fa-solid fa-paper-plane"></i> Submit Survey Request
+                            </button>
+
+                            <p class="text-[11px] text-gray-500 text-center flex items-center justify-center gap-1">
+                                <i class="fa-solid fa-lock text-emerald-600"></i> Your details are strict & confidential. No spam.
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="calculator" class="py-16 bg-emerald-50/50 border-y border-emerald-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="bg-brand-100 text-brand-800 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Instant Lead Calculator</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">Interactive Survey Cost Estimator</h2>
+                <p class="text-gray-600 text-sm sm:text-base mt-2">Get an estimated budget range and timeline for your survey project in Kenya before booking.</p>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-xl border border-emerald-100 p-6 md:p-10 max-w-4xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    
+                    <!-- Calculator Inputs -->
+                    <div class="space-y-5">
+                        <div>
+                            <label class="block text-sm font-bold text-gray-800 mb-1.5">1. Select Survey Category</label>
+                            <select id="calcType" onchange="calculateEstimate()" class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-600 outline-none text-sm bg-white">
+                                <option value="beacon">Beacon Re-establishment / Boundary Identification</option>
+                                <option value="subdivision">Land Subdivision & Scheme Plan</option>
+                                <option value="topo">Topographic Survey & Contour Mapping</option>
+                                <option value="sectional">Sectional Title Plan (Apartments/Flats)</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-bold text-gray-800 mb-1.5">2. Land Size / Extent</label>
+                            <select id="calcSize" onchange="calculateEstimate()" class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-600 outline-none text-sm bg-white">
+                                <option value="plot">Eighth Acre to Quarter Acre (50x100 to 100x100)</option>
+                                <option value="acre1">1 Acre to 3 Acres</option>
+                                <option value="acre5">4 Acres to 10 Acres</option>
+                                <option value="large">Above 10 Acres</option>
+                            </select>
+                        </div>
+
+                        <div id="subdivisionPlotsDiv" class="space-y-1.5">
+                            <label class="block text-sm font-bold text-gray-800">3. Estimated Number of Subdivided Plots</label>
+                            <input type="number" id="calcPlots" value="2" min="2" max="100" onchange="calculateEstimate()" oninput="calculateEstimate()" class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-600 outline-none text-sm">
+                            <span class="text-xs text-gray-500">e.g. Subdividing 1 acre into 8 plots of 50x100</span>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-bold text-gray-800 mb-1.5">4. Parcel Location Region in Kenya</label>
+                            <select id="calcRegion" onchange="calculateEstimate()" class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-600 outline-none text-sm bg-white">
+                                <option value="nairobi_metropolitan">Nairobi Metropolitan (Nairobi, Kiambu, Kajiado, Machakos)</option>
+                                <option value="rift_valley">Rift Valley (Nakuru, Uasin Gishu, Nandi, Kericho, Trans Nzoia)</option>
+                                <option value="central_kenya">Central Kenya (Nyeri, Murang'a, Kirinyaga, Nyandarua)</option>
+                                <option value="coast_western">Coast, Nyanza & Western Kenya</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Calculator Output Card -->
+                    <div class="bg-gradient-to-br from-brand-900 to-slate-900 text-white rounded-xl p-6 flex flex-col justify-between shadow-inner">
+                        <div>
+                            <div class="flex items-center justify-between border-b border-brand-800 pb-3">
+                                <span class="text-xs uppercase tracking-wider font-semibold text-emerald-300">Estimated Budget Range</span>
+                                <span class="text-xs bg-emerald-800 text-emerald-100 px-2 py-0.5 rounded font-mono">KES Approx</span>
+                            </div>
+
+                            <div class="my-6">
+                                <p class="text-xs text-emerald-300">Estimated Professional Cost:</p>
+                                <p id="calcCostDisplay" class="text-3xl sm:text-4xl font-extrabold text-amber-400 mt-1">KES 25,000 - 35,000</p>
+                                <p id="calcTimeDisplay" class="text-xs text-emerald-200 mt-2 flex items-center gap-1">
+                                    <i class="fa-regular fa-clock"></i> Estimated Completion: 3 - 5 Working Days
+                                </p>
+                            </div>
+
+                            <div class="space-y-2 text-xs text-gray-300 border-t border-brand-800/80 pt-3">
+                                <p class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-emerald-400"></i> Includes Fieldwork & High-Precision RTK Equipment
+                                </p>
+                                <p class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-emerald-400"></i> Beacon Identification / Boundary Placement
+                                </p>
+                                <p class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-emerald-400"></i> Formal Licensed Surveyor Stamp & Report
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="pt-6">
+                            <button onclick="transferEstimateToContact()" class="w-full bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold py-3 px-4 rounded-lg shadow transition-all text-sm flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-circle-arrow-down"></i> Lock Quote & Book Site Visit
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-700 font-extrabold text-xs tracking-wider uppercase bg-brand-50 px-3 py-1 rounded-full border border-brand-200">Our Expertise</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-3">Comprehensive Land & Engineering Survey Services</h2>
+                <p class="text-gray-600 text-sm sm:text-base mt-3">Delivering legal clarity, exact boundaries, and seamless land registration under the Laws of Kenya.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Service 1 -->
+                <div class="bg-gray-50 rounded-2xl p-7 border border-gray-200 hover:border-brand-600 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-emerald-100 text-brand-800 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-700 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-draw-polygon"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Cadastral & Boundary Survey</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                            Precise location and re-establishment of lost land beacons, fixing boundary disputes, and producing certified survey maps for land transaction security.
+                        </p>
+                        <ul class="text-xs text-gray-700 space-y-2 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> Beacon Placement & Identification</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> Boundary Dispute Resolution</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> Land Search & Verification</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" onclick="preselectService('Cadastral & Boundary Survey')" class="text-brand-700 font-bold text-sm flex items-center gap-2 group-hover:translate-x-1 transition-transform">
+                        Inquire for Boundary Survey <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-gray-50 rounded-2xl p-7 border border-gray-200 hover:border-brand-600 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-emerald-100 text-brand-800 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-700 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-sitemap"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Land Subdivision & Amalgamation</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                            End-to-end subdivision of large land parcels into smaller plots, preparation of mutation forms, deed plans, and County planning approval follow-ups.
+                        </p>
+                        <ul class="text-xs text-gray-700 space-y-2 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> Scheme Plans & Mutation Approval</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> County & NLC Approvals</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> Title Deed Processing Support</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" onclick="preselectService('Land Subdivision')" class="text-brand-700 font-bold text-sm flex items-center gap-2 group-hover:translate-x-1 transition-transform">
+                        Inquire for Subdivision <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-gray-50 rounded-2xl p-7 border border-gray-200 hover:border-brand-600 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-emerald-100 text-brand-800 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-700 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-mountain-city"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Topographic & Contour Survey</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                            Detailed 3D elevation and ground surface mapping for architects, civil engineers, physical planners, and infrastructure developments.
+                        </p>
+                        <ul class="text-xs text-gray-700 space-y-2 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> Contour Maps & Spot Heights</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> CAD / DXF Files for Architects</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> Earthwork & Volume Calculations</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" onclick="preselectService('Topographic Survey')" class="text-brand-700 font-bold text-sm flex items-center gap-2 group-hover:translate-x-1 transition-transform">
+                        Inquire for Topo Survey <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-gray-50 rounded-2xl p-7 border border-gray-200 hover:border-brand-600 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-emerald-100 text-brand-800 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-700 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-building-user"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Sectional Properties Act Survey</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                            Preparation of Sectional Plans for apartment blocks, townhouses, and commercial units to convert long-term leases into individual Sectional Titles.
+                        </p>
+                        <ul class="text-xs text-gray-700 space-y-2 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> Sectional Plans for Apartment Units</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> Director of Surveys Registration</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> Individual Unit Ownership Plans</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" onclick="preselectService('Sectional Properties Title')" class="text-brand-700 font-bold text-sm flex items-center gap-2 group-hover:translate-x-1 transition-transform">
+                        Inquire for Sectional Titles <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="bg-gray-50 rounded-2xl p-7 border border-gray-200 hover:border-brand-600 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-emerald-100 text-brand-800 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-700 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-compass-drafting"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Engineering & Road Construction Survey</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                            Precise stakeouts for building foundations, roads, sewer lines, pipelines, and civil engineering infrastructure control networks.
+                        </p>
+                        <ul class="text-xs text-gray-700 space-y-2 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> Building & Axis Alignment Setting Out</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> As-Built Surveys</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> Verticality & Structural Control</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" onclick="preselectService('Engineering / Construction Survey')" class="text-brand-700 font-bold text-sm flex items-center gap-2 group-hover:translate-x-1 transition-transform">
+                        Inquire for Engineering Survey <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="bg-gray-50 rounded-2xl p-7 border border-gray-200 hover:border-brand-600 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-emerald-100 text-brand-800 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-700 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">ArdhiSasa & Title Deed Search</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                            Expert support in land search, geo-referencing, digital land registration, and solving title deed overlaps on Ministry of Lands ArdhiSasa portal.
+                        </p>
+                        <ul class="text-xs text-gray-700 space-y-2 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> Official Land Search & Due Diligence</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> Georeferencing Existing Titles</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-700"></i> ArdhiSasa Account & Plan Uploads</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" onclick="preselectService('Title Deed Processing')" class="text-brand-700 font-bold text-sm flex items-center gap-2 group-hover:translate-x-1 transition-transform">
+                        Inquire for ArdhiSasa / Title <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="ardhisasa" class="py-16 gradient-bg text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-8 items-center">
+                <div class="lg:col-span-7 space-y-4">
+                    <span class="bg-amber-500/20 text-amber-300 border border-amber-400/30 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        Kenya Ministry of Lands Portal
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+                        Need Help Navigating <span class="text-amber-400">ArdhiSasa Digital Land System?</span>
+                    </h2>
+                    <p class="text-emerald-100 text-sm sm:text-base leading-relaxed">
+                        The Ministry of Lands and Physical Planning mandates georeferenced survey plans and digital registration. **Jepkirui Carol Survey Company Limited** provides full support for:
+                    </p>
+                    <div class="grid sm:grid-cols-2 gap-3 pt-2">
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-circle-check text-amber-400 text-lg mt-0.5"></i>
+                            <span class="text-xs sm:text-sm text-gray-200">Geo-referencing of un-georeferenced deed plans</span>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-circle-check text-amber-400 text-lg mt-0.5"></i>
+                            <span class="text-xs sm:text-sm text-gray-200">Solving overlapping land registration errors</span>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-circle-check text-amber-400 text-lg mt-0.5"></i>
+                            <span class="text-xs sm:text-sm text-gray-200">Sectional Title replacements for sectional properties</span>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-circle-check text-amber-400 text-lg mt-0.5"></i>
+                            <span class="text-xs sm:text-sm text-gray-200">Digital verification & search report creation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5 bg-white/10 backdrop-blur-md p-6 sm:p-8 rounded-2xl border border-white/15 text-center">
+                    <i class="fa-solid fa-shield-halved text-5xl text-amber-400 mb-4"></i>
+                    <h3 class="text-xl font-bold">Avoid Land Fraud in Kenya</h3>
+                    <p class="text-xs text-emerald-100 my-3 leading-relaxed">
+                        Never pay for land without verifying beacons and conducting an official ground survey match with the Survey of Kenya Registry.
+                    </p>
+                    <a href="tel:0716505439" class="inline-block bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold px-6 py-3 rounded-lg shadow-lg text-sm transition-all">
+                        <i class="fa-solid fa-phone mr-1.5"></i> Speak with Carol: 0716505439
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-700 font-extrabold text-xs tracking-wider uppercase bg-emerald-100 px-3 py-1 rounded-full">Transparent Workflow</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">How Our Land Survey Process Works</h2>
+                <p class="text-gray-600 text-sm sm:text-base mt-2">Clear, step-by-step procedure to ensure your land boundaries are legally sound.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 relative">
+                
+                <!-- Step 1 -->
+                <div class="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm relative z-10 flex flex-col items-center text-center">
+                    <div class="w-12 h-12 bg-brand-700 text-white font-extrabold text-lg rounded-full flex items-center justify-center mb-4 shadow">
+                        1
+                    </div>
+                    <h3 class="font-bold text-lg text-gray-900 mb-1">Consultation & Search</h3>
+                    <p class="text-xs text-gray-600">
+                        We review your title deed copy, registry index map (RIM), or deed plan to verify land details before field operations.
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm relative z-10 flex flex-col items-center text-center">
+                    <div class="w-12 h-12 bg-brand-700 text-white font-extrabold text-lg rounded-full flex items-center justify-center mb-4 shadow">
+                        2
+                    </div>
+                    <h3 class="font-bold text-lg text-gray-900 mb-1">Site Fieldwork</h3>
+                    <p class="text-xs text-gray-600">
+                        Our survey team visits the ground using high-precision RTK GNSS equipment to locate or place concrete beacons accurately.
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm relative z-10 flex flex-col items-center text-center">
+                    <div class="w-12 h-12 bg-brand-700 text-white font-extrabold text-lg rounded-full flex items-center justify-center mb-4 shadow">
+                        3
+                    </div>
+                    <h3 class="font-bold text-lg text-gray-900 mb-1">Plan Drafting</h3>
+                    <p class="text-xs text-gray-600">
+                        Survey computations are processed, generating mutation forms, topographical CAD models, or sectional plans.
+                    </p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm relative z-10 flex flex-col items-center text-center">
+                    <div class="w-12 h-12 bg-amber-500 text-slate-900 font-extrabold text-lg rounded-full flex items-center justify-center mb-4 shadow">
+                        4
+                    </div>
+                    <h3 class="font-bold text-lg text-gray-900 mb-1">Approval & Handover</h3>
+                    <p class="text-xs text-gray-600">
+                        Final authenticated survey plans are submitted to County/Director of Surveys, and certified documentation delivered to you.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 md:py-24 bg-white border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-6 space-y-5">
+                    <span class="bg-brand-100 text-brand-800 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">About Our Company</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900">
+                        Jepkirui Carol Survey Company Limited
+                    </h2>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                        We are an independent, fully licensed survey consultancy registered in Kenya. Headed by experienced land surveying professionals, we specialize in offering accurate spatial measurements, land tenure security, and physical development survey support.
+                    </p>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                        Whether you are an individual land buyer verifying plot boundaries, a family undertaking land subdivision, or a developer constructing commercial real estate, we guarantee speed, integrity, and absolute accuracy.
+                    </p>
+
+                    <div class="grid grid-cols-2 gap-4 pt-2">
+                        <div class="p-4 bg-gray-50 rounded-xl border border-gray-200">
+                            <h4 class="font-bold text-gray-900 text-sm mb-1"><i class="fa-solid fa-bullseye text-brand-700 mr-1.5"></i> High Accuracy</h4>
+                            <p class="text-xs text-gray-500">Utilizing dual-frequency RTK GPS / GNSS and Electronic Total Stations.</p>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-xl border border-gray-200">
+                            <h4 class="font-bold text-gray-900 text-sm mb-1"><i class="fa-solid fa-clock-rotate-left text-brand-700 mr-1.5"></i> Quick Turnaround</h4>
+                            <p class="text-xs text-gray-500">Fast delivery of mutation forms, survey reports, and CAD drawings.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6">
+                    <div class="bg-gradient-to-tr from-brand-900 to-emerald-800 rounded-3xl p-8 text-white shadow-2xl relative">
+                        <i class="fa-solid fa-quote-left text-brand-700 text-6xl absolute top-4 left-4 opacity-30"></i>
+                        <div class="relative z-10 space-y-4">
+                            <h3 class="text-2xl font-bold text-amber-400">Direct Contact & Support</h3>
+                            <p class="text-emerald-100 text-sm leading-relaxed">
+                                "Land is a lifelong investment in Kenya. A proper survey protects you from costly boundary conflicts, illegal land encroachments, and title cancellation."
+                            </p>
+                            
+                            <div class="pt-4 border-t border-brand-700/60 flex items-center gap-4">
+                                <div class="w-14 h-14 bg-amber-500 rounded-full flex items-center justify-center text-slate-900 font-bold text-xl">
+                                    JC
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-white text-base">Jepkirui Carol</h4>
+                                    <p class="text-xs text-emerald-200">Lead Surveyor / Managing Director</p>
+                                    <p class="text-xs text-amber-400 font-bold mt-1"><i class="fa-solid fa-phone"></i> Direct: 0716505439</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="faqs" class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-brand-700 font-extrabold text-xs tracking-wider uppercase bg-brand-50 px-3 py-1 rounded-full">Got Questions?</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">Frequently Asked Questions</h2>
+                <p class="text-gray-600 text-sm mt-1">Common inquiries about land surveying in Kenya.</p>
+            </div>
+
+            <div class="space-y-4">
+                
+                <!-- FAQ Item 1 -->
+                <div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+                    <button onclick="toggleFaq('faq1')" class="w-full px-6 py-4 text-left font-bold text-gray-900 text-sm sm:text-base flex justify-between items-center hover:bg-gray-50 focus:outline-none">
+                        <span>How much does it cost to re-establish missing beacons on my plot in Kenya?</span>
+                        <i id="faq1-icon" class="fa-solid fa-chevron-down text-brand-700 transition-transform"></i>
+                    </button>
+                    <div id="faq1" class="hidden px-6 pb-4 text-xs sm:text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
+                        Beacon re-establishment for standard residential plots (e.g., 50x100 or 100x100) generally ranges from KES 15,000 to KES 35,000 depending on location, availability of Registry Index Maps (RIM), and terrain. Contact us with your parcel number for an exact quote.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+                    <button onclick="toggleFaq('faq2')" class="w-full px-6 py-4 text-left font-bold text-gray-900 text-sm sm:text-base flex justify-between items-center hover:bg-gray-50 focus:outline-none">
+                        <span>What is the difference between a mutation form and a deed plan?</span>
+                        <i id="faq2-icon" class="fa-solid fa-chevron-down text-brand-700 transition-transform"></i>
+                    </button>
+                    <div id="faq2" class="hidden px-6 pb-4 text-xs sm:text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
+                        A Mutation Form is used for land under the Registered Land Act (general boundaries, such as agricultural or residential plots with RIMs). A Deed Plan is prepared for fixed survey boundaries (often commercial land or leaseholds authenticated directly by the Survey of Kenya).
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+                    <button onclick="toggleFaq('faq3')" class="w-full px-6 py-4 text-left font-bold text-gray-900 text-sm sm:text-base flex justify-between items-center hover:bg-gray-50 focus:outline-none">
+                        <span>Why should I hire a Licensed Land Surveyor before buying land?</span>
+                        <i id="faq3-icon" class="fa-solid fa-chevron-down text-brand-700 transition-transform"></i>
+                    </button>
+                    <div id="faq3" class="hidden px-6 pb-4 text-xs sm:text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
+                        A licensed surveyor confirms that the plot shown to you by the seller matches the exact coordinates on government maps. This prevents buying road reserves, public utility land, or neighboring plots.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+                    <button onclick="toggleFaq('faq4')" class="w-full px-6 py-4 text-left font-bold text-gray-900 text-sm sm:text-base flex justify-between items-center hover:bg-gray-50 focus:outline-none">
+                        <span>How long does a land subdivision process take in Kenya?</span>
+                        <i id="faq4-icon" class="fa-solid fa-chevron-down text-brand-700 transition-transform"></i>
+                    </button>
+                    <div id="faq4" class="hidden px-6 pb-4 text-xs sm:text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
+                        Standard subdivision typically takes between 2 to 6 weeks, depending on County Planning approvals, Land Control Board (LCB) consent schedules, and registration at the Ministry of Lands.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 md:py-24 bg-white border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12">
+                
+                <!-- Contact Info Left Column -->
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="bg-brand-100 text-brand-800 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Get In Touch</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900">
+                        Let's Discuss Your Land Survey Project
+                    </h2>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Have questions or need an urgent on-site survey anywhere in Kenya? Call, WhatsApp, or send us a request.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <!-- Direct Call Card -->
+                        <a href="tel:0716505439" class="p-4 bg-emerald-50 hover:bg-emerald-100 rounded-xl border border-emerald-200 flex items-center gap-4 transition-colors">
+                            <div class="w-12 h-12 bg-brand-700 text-white rounded-lg flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-gray-500 font-medium">Direct Phone Call</p>
+                                <p class="text-lg font-extrabold text-gray-900">0716505439</p>
+                                <p class="text-[11px] text-brand-700 font-semibold">Click to call immediately</p>
+                            </div>
+                        </a>
+
+                        <!-- WhatsApp Direct Card -->
+                        <a href="https://wa.me/254716505439?text=Hello%20Jepkirui%20Carol%20Survey%20Company,%20I%20want%20to%20book%20a%20land%20survey." target="_blank" class="p-4 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl flex items-center gap-4 transition-colors">
+                            <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center text-2xl shrink-0">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-emerald-100 font-medium">Instant WhatsApp Chat</p>
+                                <p class="text-lg font-bold">Send Title/Map on WhatsApp</p>
+                                <p class="text-[11px] text-emerald-200">Fast document review</p>
+                            </div>
+                        </a>
+
+                        <!-- Coverage Areas Card -->
+                        <div class="p-4 bg-gray-50 rounded-xl border border-gray-200">
+                            <p class="text-xs font-bold text-gray-800 uppercase tracking-wider mb-1"><i class="fa-solid fa-location-dot text-amber-500 mr-1"></i> Coverage Area</p>
+                            <p class="text-xs text-gray-600">Headquartered in Kenya with active survey teams in Nairobi, Kiambu, Rift Valley, Central, Coast, and Western Kenya regions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Contact Form Right Column -->
+                <div class="lg:col-span-7">
+                    <div class="bg-gray-50 rounded-2xl p-6 sm:p-10 border border-gray-200 shadow-lg">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Book Site Visit / Formal Consultation</h3>
+                        <p class="text-xs text-gray-500 mb-6">Complete this form and our chief surveyor will review your requirements and respond promptly.</p>
+
+                        <form id="mainContactForm" onsubmit="handleMainContactSubmit(event)" class="space-y-4">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-700 mb-1">Full Name *</label>
+                                    <input type="text" id="mainName" required placeholder="John Doe" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-600 text-sm outline-none bg-white">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-700 mb-1">Phone Number *</label>
+                                    <input type="tel" id="mainPhone" required placeholder="0716 505 439" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-600 text-sm outline-none bg-white">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-700 mb-1">Select Service *</label>
+                                    <select id="mainService" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-600 text-sm outline-none bg-white">
+                                        <option value="Cadastral & Boundary Survey">Boundary Survey & Beacon Placement</option>
+                                        <option value="Land Subdivision">Land Subdivision & Mutation</option>
+                                        <option value="Topographic Survey">Topographic / Contour Survey</option>
+                                        <option value="Sectional Properties Title">Sectional Title Plan (Apartment)</option>
+                                        <option value="Title Deed Processing">ArdhiSasa / Title Search</option>
+                                        <option value="Engineering / Construction Survey">Engineering / Construction Survey</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-700 mb-1">Land Location / County *</label>
+                                    <input type="text" id="mainLocation" required placeholder="e.g. Ruiru, Kiambu / Nakuru" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-600 text-sm outline-none bg-white">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold text-gray-700 mb-1">Parcel Number or Additional Notes (Optional)</label>
+                                <textarea id="mainNotes" rows="3" placeholder="Provide details like plot size, L.R. Number, or special requests..." class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-600 text-sm outline-none bg-white"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full bg-brand-700 hover:bg-brand-800 text-white font-bold py-4 px-6 rounded-xl shadow-md transition-all text-base flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-paper-plane"></i> Submit Request
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Quick Contact Bar (Mobile & Desktop) -->
+    <div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2">
+        <a href="https://wa.me/254716505439?text=Hello%20Jepkirui%20Carol%20Survey%20Company,%20I%20need%20a%20quote%20for%20my%20land." target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white p-3.5 rounded-full shadow-2xl flex items-center justify-center text-2xl transition-all transform hover:scale-110" title="Chat on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="tel:0716505439" class="bg-amber-500 hover:bg-amber-600 text-slate-900 p-3.5 rounded-full shadow-2xl flex items-center justify-center text-xl transition-all transform hover:scale-110" title="Call Surveyor Direct">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+    </div>
+
+    <!-- Main Footer -->
+    <footer class="bg-navy-900 text-gray-300 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-10 border-b border-slate-800">
+                
+                <!-- Company Bio -->
+                <div class="md:col-span-2 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-brand-700 rounded-lg flex items-center justify-center text-white text-lg font-bold">
+                            <i class="fa-solid fa-drafting-compass"></i>
+                        </div>
+                        <div>
+                            <span class="block font-bold text-white text-base">JEPKIRUI CAROL</span>
+                            <span class="block text-xs text-emerald-400 font-semibold tracking-wider">SURVEY COMPANY LIMITED</span>
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-400 max-w-md leading-relaxed">
+                        Licensed land surveying practice providing cadastral boundary surveys, land subdivision, topographical mapping, and title deed registration services in Kenya.
+                    </p>
+                    <p class="text-xs text-amber-400 font-semibold">
+                        <i class="fa-solid fa-phone mr-1"></i> Helpline: 0716505439 | Kenya
+                    </p>
+                </div>
+
+                <!-- Quick Nav Links -->
+                <div>
+                    <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-3">Quick Links</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#services" class="hover:text-emerald-400 transition-colors">Our Services</a></li>
+                        <li><a href="#calculator" class="hover:text-emerald-400 transition-colors">Cost Estimator Tool</a></li>
+                        <li><a href="#process" class="hover:text-emerald-400 transition-colors">Survey Process</a></li>
+                        <li><a href="#ardhisasa" class="hover:text-emerald-400 transition-colors">ArdhiSasa Registration</a></li>
+                        <li><a href="#about" class="hover:text-emerald-400 transition-colors">About Carol Jepkirui</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services List -->
+                <div>
+                    <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-3">Services</h4>
+                    <ul class="space-y-2 text-xs text-gray-400">
+                        <li>Beacon Re-establishment</li>
+                        <li>Land Subdivision & Mutation</li>
+                        <li>Topographic Mapping</li>
+                        <li>Sectional Properties Survey</li>
+                        <li>Engineering & Road Survey</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom Copyright Bar -->
+            <div class="pt-6 flex flex-col sm:flex-row justify-between items-center text-xs text-gray-500 gap-3">
+                <p>&copy; <span id="currentYear"></span> Jepkirui Carol Survey Company Limited. All rights reserved.</p>
+                <p class="flex items-center gap-2">
+                    <span>Kenya Land Surveying License Standards</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Modal Popup (Replaces Browser Alert) -->
+    <div id="statusModal" class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 hidden">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 text-center shadow-2xl relative animate-fade-in">
+            <button onclick="closeModal()" class="absolute top-3 right-3 text-gray-400 hover:text-gray-600 p-2">
+                <i class="fa-solid fa-xmark text-xl"></i>
+            </button>
+            <div id="modalIcon" class="w-16 h-16 bg-emerald-100 text-brand-700 rounded-full flex items-center justify-center text-3xl mx-auto mb-4">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <h3 id="modalTitle" class="text-2xl font-bold text-gray-900 mb-2">Request Received!</h3>
+            <p id="modalMessage" class="text-xs text-gray-600 leading-relaxed mb-6">
+                Thank you for contacting Jepkirui Carol Survey Company Limited. Surveyor Carol will call you shortly on <strong>0716505439</strong>.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-2">
+                <a id="modalWhatsappBtn" href="https://wa.me/254716505439" target="_blank" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 rounded-xl text-xs flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-base"></i> Send Details via WhatsApp
+                </a>
+                <button onclick="closeModal()" class="w-full bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-3 rounded-xl text-xs">
+                    Close Window
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Set dynamic copyright year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Mobile Menu Toggle Logic
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // FAQ Accordion Toggle Logic
+        function toggleFaq(id) {
+            const faqContent = document.getElementById(id);
+            const faqIcon = document.getElementById(id + '-icon');
+            
+            if (faqContent.classList.contains('hidden')) {
+                faqContent.classList.remove('hidden');
+                faqIcon.classList.add('rotate-180');
+            } else {
+                faqContent.classList.add('hidden');
+                faqIcon.classList.remove('rotate-180');
+            }
+        }
+
+        // Interactive Survey Cost Calculator Math
+        function calculateEstimate() {
+            const type = document.getElementById('calcType').value;
+            const size = document.getElementById('calcSize').value;
+            const plots = parseInt(document.getElementById('calcPlots').value) || 2;
+            const region = document.getElementById('calcRegion').value;
+            const subdivisionPlotsDiv = document.getElementById('subdivisionPlotsDiv');
+
+            if (type === 'subdivision') {
+                subdivisionPlotsDiv.style.display = 'block';
+            } else {
+                subdivisionPlotsDiv.style.display = 'none';
+            }
+
+            let minCost = 20000;
+            let maxCost = 35000;
+            let timeFrame = "2 - 4 Working Days";
+
+            if (type === 'beacon') {
+                if (size === 'plot') { minCost = 20000; maxCost = 30000; }
+                else if (size === 'acre1') { minCost = 30000; maxCost = 45000; }
+                else if (size === 'acre5') { minCost = 50000; maxCost = 80000; }
+                else { minCost = 90000; maxCost = 150000; }
+                timeFrame = "1 - 3 Working Days";
+            } else if (type === 'subdivision') {
+                const basePlotFee = 15000;
+                minCost = basePlotFee + (plots * 8000);
+                maxCost = minCost + (plots * 5000);
+                timeFrame = "2 - 5 Weeks (Includes County Approvals)";
+            } else if (type === 'topo') {
+                if (size === 'plot') { minCost = 25000; maxCost = 40000; }
+                else if (size === 'acre1') { minCost = 40000; maxCost = 65000; }
+                else if (size === 'acre5') { minCost = 70000; maxCost = 120000; }
+                else { minCost = 130000; maxCost = 250000; }
+                timeFrame = "3 - 7 Working Days";
+            } else if (type === 'sectional') {
+                minCost = 60000;
+                maxCost = 120000;
+                timeFrame = "3 - 6 Weeks";
+            }
+
+            // Adjust slightly for regional travel logistics if outside Nairobi Metro
+            if (region !== 'nairobi_metropolitan') {
+                minCost += 5000;
+                maxCost += 8000;
+            }
+
+            document.getElementById('calcCostDisplay').textContent = `KES ${minCost.toLocaleString()} - ${maxCost.toLocaleString()}`;
+            document.getElementById('calcTimeDisplay').innerHTML = `<i class="fa-regular fa-clock"></i> Estimated Timeline: ${timeFrame}`;
+        }
+
+        // Transfer Calculator Output into Contact Request Form
+        function transferEstimateToContact() {
+            const typeSelect = document.getElementById('calcType');
+            const typeText = typeSelect.options[typeSelect.selectedIndex].text;
+            const costText = document.getElementById('calcCostDisplay').textContent;
+
+            const mainService = document.getElementById('mainService');
+            if (typeSelect.value === 'beacon') mainService.value = 'Cadastral & Boundary Survey';
+            else if (typeSelect.value === 'subdivision') mainService.value = 'Land Subdivision';
+            else if (typeSelect.value === 'topo') mainService.value = 'Topographic Survey';
+            else if (typeSelect.value === 'sectional') mainService.value = 'Sectional Properties Title';
+
+            document.getElementById('mainNotes').value = `Calculator Estimate Request: ${typeText} | Estimated Budget: ${costText}`;
+
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Preselect Service Function for Service Cards
+        function preselectService(serviceName) {
+            const mainService = document.getElementById('mainService');
+            if (mainService) {
+                mainService.value = serviceName;
+            }
+        }
+
+        // Custom Modal Logic (Replacing standard alerts)
+        function showModal(title, message, whatsappMsg) {
+            document.getElementById('modalTitle').textContent = title;
+            document.getElementById('modalMessage').innerHTML = message;
+            
+            const waBtn = document.getElementById('modalWhatsappBtn');
+            if (whatsappMsg) {
+                waBtn.href = `https://wa.me/254716505439?text=${encodeURIComponent(whatsappMsg)}`;
+            } else {
+                waBtn.href = "https://wa.me/254716505439";
+            }
+
+            document.getElementById('statusModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('statusModal').classList.add('hidden');
+        }
+
+        // Form Submission Handlers
+        function handleHeroSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('leadName').value;
+            const phone = document.getElementById('leadPhone').value;
+            const county = document.getElementById('leadCounty').value;
+            const service = document.getElementById('leadService').value;
+
+            const waText = `Hello Surveyor Carol, my name is ${name} (${phone}). I need assistance with ${service} in ${county}.`;
+
+            showModal(
+                "Request Submitted!",
+                `Thank you <strong>${name}</strong>. Your request for <strong>${service}</strong> in <strong>${county}</strong> has been received. Surveyor Carol will call you back on <strong>${phone}</strong> shortly.`,
+                waText
+            );
+
+            document.getElementById('heroLeadForm').reset();
+        }
+
+        function handleMainContactSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('mainName').value;
+            const phone = document.getElementById('mainPhone').value;
+            const service = document.getElementById('mainService').value;
+            const location = document.getElementById('mainLocation').value;
+            const notes = document.getElementById('mainNotes').value;
+
+            const waText = `Hello Jepkirui Carol Survey Company, I am ${name} (${phone}). I would like to book a site visit for ${service} at ${location}. ${notes ? 'Notes: ' + notes : ''}`;
+
+            showModal(
+                "Consultation Booked!",
+                `Thank you <strong>${name}</strong>. Your consultation request for <strong>${service}</strong> in <strong>${location}</strong> has been logged. We will contact you at <strong>${phone}</strong> or send details on WhatsApp.`,
+                waText
+            );
+
+            document.getElementById('mainContactForm').reset();
+        }
+
+        // Initialize calculator defaults
+        calculateEstimate();
+    </script>
+</body>
+</html>
